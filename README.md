@@ -1,13 +1,11 @@
 ----
 
-## Faculty Glyphic
+## Momo Trust Display
 
-Faculty Glyphic is a typeface that captures the essence of Faculty, a global leader in applied AI. Designed at Koto London in 2024, it reflects London’s rich history and innovative legacy in computing, drawing inspiration from carved typography and the works of Berthold Wolpe and Edward Johnston.
+MoMo Trust Display draws inspiration from the MoMo logotype, incorporating subtle cues from the rounded, approachable forms that define the brand’s core look.
 
-This typeface is a modern tribute to Wolpe's iconic Albertus, which appears on the street signs of the City of London, becoming a defining symbol of the City’s identity post World War II.
-
-By marrying timeless design with contemporary digital optimization, Faculty Glyphic pays homage to its home city while seamlessly merging tradition and modernity.
+This font was designed by TYPE Associates in 2024.
 
 ### License
 
-Faculty Glyphic is licensed under the SIL Open Font License v1.1
+Momo Trust Display is licensed under the SIL Open Font License v1.1
