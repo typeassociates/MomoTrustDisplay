@@ -2,9 +2,7 @@
 .appVersion = "3424";
 .formatVersion = 3;
 DisplayStrings = (
-"LĽď ľ ť
-ČĎĚŇŘŠŤŽ
-čďěľňřšťž"
+"-HĦ"
 );
 axes = (
 {
@@ -25921,7 +25919,7 @@ unicode = 288;
 },
 {
 glyphname = Hbar;
-lastChange = "2025-03-02 13:35:19 +0000";
+lastChange = "2025-09-12 13:00:08 +0000";
 layers = (
 {
 layerId = m002;
@@ -25930,9 +25928,13 @@ shapes = (
 ref = H;
 },
 {
-pos = (-202,308);
-ref = hyphen;
-scale = (2.5622,1);
+closed = 1;
+nodes = (
+(777,537,l),
+(777,675,l),
+(-12,675,l),
+(-12,537,l)
+);
 }
 );
 width = 765;
