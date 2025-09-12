@@ -963,6 +963,10 @@ icon.018
 name = fsType;
 value = (
 );
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 date = "2024-07-28 17:26:45 +0000";
@@ -1062,7 +1066,7 @@ sub N by N.ss01;
 labels = (
 {
 language = dflt;
-value = "";
+value = ss01;
 }
 );
 notes = "Alternative M, N";
@@ -5822,9 +5826,19 @@ unicode = 296;
 glyphname = J;
 kernLeft = KO_J;
 kernRight = KO_H;
-lastChange = "2025-03-16 14:27:07 +0000";
+lastChange = "2025-09-12 13:18:15 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (242,0);
+},
+{
+name = top;
+pos = (317,750);
+}
+);
 layerId = m002;
 shapes = (
 {
@@ -27762,9 +27776,19 @@ unicode = 303;
 },
 {
 glyphname = jdotless;
-lastChange = "2025-03-02 13:14:07 +0000";
+lastChange = "2025-09-12 13:18:21 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (170,-180);
+},
+{
+name = top;
+pos = (207,570);
+}
+);
 layerId = m002;
 shapes = (
 {
@@ -31160,6 +31184,38 @@ width = 999;
 metricLeft = "=40";
 metricRight = "=40";
 unicode = 9320;
+},
+{
+glyphname = nbspace;
+lastChange = "2025-09-12 13:17:16 +0000";
+layers = (
+{
+layerId = m002;
+width = 220;
+}
+);
+metricWidth = space;
+unicode = 160;
+},
+{
+glyphname = lineseparator;
+layers = (
+{
+layerId = m002;
+width = 600;
+}
+);
+unicode = 8232;
+},
+{
+glyphname = paragraphseparator;
+layers = (
+{
+layerId = m002;
+width = 600;
+}
+);
+unicode = 8233;
 },
 {
 glyphname = guillemetleft;
@@ -39363,13 +39419,6 @@ comma = -30;
 hyphen = 10;
 period = -41;
 };
-euro = {
-comma = -23;
-one = -18;
-period = -27;
-seven = -25;
-slash = -31;
-};
 F = {
 AE = -68;
 Adieresis = -48;
@@ -41198,6 +41247,13 @@ thorn = 31;
 u = 30;
 uacute = 30;
 };
+euro = {
+comma = -23;
+one = -18;
+period = -27;
+seven = -25;
+slash = -31;
+};
 exclamdown = {
 T = -51;
 V = -30;
@@ -42516,9 +42572,9 @@ ucircumflex = -6;
 udieresis = -6;
 uhungarumlaut = -6;
 umacron = -6;
-wacute = -12;
 uogonek = -6;
 uring = -6;
+wacute = -12;
 wcircumflex = -12;
 ycircumflex = -18;
 };
@@ -42885,10 +42941,6 @@ adieresis = -147;
 edotaccent = -150;
 odieresis = -153;
 };
-wacute = {
-n = -20;
-r = -24;
-};
 uogonek = {
 comma = 59;
 j = -66;
@@ -42966,6 +43018,10 @@ trademark = -46;
 ycircumflex = 21;
 zacute = 20;
 zdotaccent = 20;
+};
+wacute = {
+n = -20;
+r = -24;
 };
 wcircumflex = {
 a = -13;
